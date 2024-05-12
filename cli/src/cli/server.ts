@@ -82,7 +82,7 @@ export default async function runServer(
   server.listen(port, host);
 
   await serverStarted;
-  console.log(`Dolos is available on ${ baseURL }`);
+  console.log(`Available on ${ baseURL }`);
 
   if (openInBrowser) {
     // Open the URL in browser
